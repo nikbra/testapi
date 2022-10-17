@@ -25,9 +25,9 @@
 
   "features": {
     // Uncomment the below to install Azure CLI
-    // "ghcr.io/devcontainers/features/azure-cli:1": {
-    //   "version": "latest"
-    // },
+     "ghcr.io/devcontainers/features/azure-cli:1": {
+       "version": "latest"
+     },
 
     // Uncomment the below to install GitHub CLI
     // "ghcr.io/devcontainers/features/github-cli:1": {
@@ -35,11 +35,11 @@
     // },
 
     // Uncomment the below to install node.js
-    // "ghcr.io/devcontainers/features/node:1": {
-    //   "version": "lts",
-    //   "nodeGypDependencies": true,
-    //   "nvmInstallPath": "/usr/local/share/nvm"
-    // },
+     "ghcr.io/devcontainers/features/node:1": {
+       "version": "lts",
+       "nodeGypDependencies": true,
+       "nvmInstallPath": "/usr/local/share/nvm"
+     },
 
     // Install common utilities
     "ghcr.io/devcontainers/features/common-utils:1": {
@@ -63,23 +63,23 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         // Recommended extensions - GitHub
-        // "cschleiden.vscode-github-actions",
-        // "GitHub.vscode-pull-request-github",
+         "cschleiden.vscode-github-actions",
+         "GitHub.vscode-pull-request-github",
 
         // Recommended extensions - Azure
-        // "Azurite.azurite",
-        // "ms-azuretools.vscode-bicep",
+         "Azurite.azurite",
+         "ms-azuretools.vscode-bicep",
 
         // Recommended extensions - Collaboration
-        // "eamodio.gitlens",
-        // "EditorConfig.EditorConfig",
-        // "MS-vsliveshare.vsliveshare-pack",
-        // "streetsidesoftware.code-spell-checker",
+         "eamodio.gitlens",
+         "EditorConfig.EditorConfig",
+         "MS-vsliveshare.vsliveshare-pack",
+         "streetsidesoftware.code-spell-checker",
 
         // Recommended extensions - .NET
-        // "Fudge.auto-using",
-        // "jongrant.csharpsortusings",
-        // "kreativ-software.csharpextensions",
+         "Fudge.auto-using",
+         "jongrant.csharpsortusings",
+         "kreativ-software.csharpextensions"
 
         // Recommended extensions - Power Platform
         // "microsoft-IsvExpTools.powerplatform-vscode",
@@ -92,11 +92,11 @@
         // "yzhang.markdown-all-in-one",
 
         // Required extensions
-        "GitHub.copilot",
-        "ms-dotnettools.csharp",
-        "ms-vscode.PowerShell",
-        "ms-vscode.vscode-node-azure-pack",
-        "VisualStudioExptTeam.vscodeintellicode"
+        //"GitHub.copilot",
+        //"ms-dotnettools.csharp",
+        //"ms-vscode.PowerShell",
+        //"ms-vscode.vscode-node-azure-pack",
+        //"VisualStudioExptTeam.vscodeintellicode"
       ],
 
       "settings": {
